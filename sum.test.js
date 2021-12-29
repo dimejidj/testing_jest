@@ -26,6 +26,7 @@ test("reversing Breakfast", () => {
   expect(reverseString("Breakfast")).toBe("tsafkaerB");
 });
 
+// Testing Calculator Function
 test("calculator functions with 10 & 2", () => {
   expect(calculator(10, 2)).toEqual({
     add: 12,
@@ -35,6 +36,7 @@ test("calculator functions with 10 & 2", () => {
   });
 });
 
+// Testing Ceasar Cipher Function
 test("CeasarCipher for decrpting a string with the shift number specified", () => {
   expect(ceasarCipher("attack at dawn", 5)).toBe("fyyfhp fy ifbs");
   expect(ceasarCipher("Welcome to my Castle BABY!", 10)).toBe(
@@ -42,6 +44,7 @@ test("CeasarCipher for decrpting a string with the shift number specified", () =
   );
 });
 
+// Testing AnalyseArray Function
 test("Analysing array to return average, min, max and length", () => {
   expect(analyseArray([1, 8, 3, 4, 2, 6])).toEqual({
     average: 4,
@@ -51,3 +54,5 @@ test("Analysing array to return average, min, max and length", () => {
   });
   expect();
 });
+
+// Check sum.js for functions!
